@@ -39,5 +39,5 @@ assistant only available as web
 ## adoption bot (MS Teams - english)
 assistant is only available in MS Teams in the ddcoms.onmicrosoft.com - Demo Tenant.   
 *Please ask for an account, if you are not yet enabled*   
-[MS Teams Demo](https://teams.microsoft.com/l/team/19%3a7Wv2-p7Qb6pT8YWUMtYG2zaMa4_ebbC5LPFvG-9rbX01%40thread.tacv2/conversations?groupId=5c9297ab-bb81-48f5-869a-0bb06d597eb4&tenantId=81814973-9a47-4fb4-8feb-139dcaef5bc8)   
+[MS Teams Demo](#{nttdemoteams}#)   
 [demo script](/script_en_teams)
