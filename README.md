@@ -1,5 +1,4 @@
 # demo-environment for Microsoft Power Virtual Agents as bots & voice bots
-Power Virtual Agent Demo-Environment   
 the environment is published to a protected static webapp on azure via github actions.
 
 ## Interested in a voicebot demo based on Microsofts PVA
