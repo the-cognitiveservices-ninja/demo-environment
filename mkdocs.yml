@@ -1,0 +1,59 @@
+site_name: NTT Germany AG & Co KG
+site_url:  https://www.nttdemo.de
+site_description: 'virtual demo room'
+site_author: 'Holger Imbery'
+docs_dir: docs/
+
+repo_name: 'https://github.com/the-cognitiveservices-ninja/demo-environment'
+repo_url: 'https://github.com/the-cognitiveservices-ninja/demo-environment'
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2022 Holger Imbery
+
+nav:
+    - home: index.md
+    - demo script virtual Assistant (german): script_de.md
+    - demo script virtual Assistant (english): script_en.md
+    - demo script clickbot (english): script_en_click.md
+    - demo script Teams Bot (english): script_en_teams.md
+    - presales resourses: playbook.md
+    - changelog: changelog.md
+    - tags: tags.md
+    - download script: pdf/script.pdf
+    - dev-environment: dev.md
+    
+theme:
+  name: 'material'
+  custom_dir: docs/overrides
+  logo: assets/ntt_logo.png
+  palette:
+    primary: blue
+  
+  features:
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    
+
+markdown_extensions:
+  - meta
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+plugins:
+  - tags:
+      tags_file: tags.md
+  - with-pdf:
+      cover_title: NTT Germany - Demo Environment
+      cover_subtitle: Holger Imbery
+      output_path: pdf/script.pdf
+  - search:
+       lang: en
+  - git-revision-date
+
+  
