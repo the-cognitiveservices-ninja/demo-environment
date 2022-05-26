@@ -35,6 +35,7 @@ jobs:
             nttdemoenphonetest: ${{ secrets.NTTDEMOENPHONETEST }}
             nttdemodephonedev: ${{ secrets.NTTDEMODEPHONEDEV }}
             nttdemoenphonedev: ${{ secrets.NTTDEMOENPHONEDEV }}
+            nttdemoteams: ${{ secrets.NTTDEMOTEAMS }}
             
       - uses: cschleiden/replace-tokens@v1
         with: 
