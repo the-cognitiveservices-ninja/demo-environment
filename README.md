@@ -8,4 +8,5 @@ get in touch via email
 [Holger Imbery](mailto:holger.imbery@global.ntt?subject=[GitHub]%20PVA%20DEMO%20Request)   
 
 ### secrets, id, tokens, phonenumbers
-everything is injected during the generation of the protected webpage
+everything is injected during the generation of the protected webpage with a github action
+
