@@ -11,7 +11,7 @@
 
 ## virtual assistant (german)
 assistant is available as web and voice demo   
-[test web demo](https://www.nttdemo.de/german_test) - (right click - open in new tab)   
+[staging web demo](https://www.nttdemo.de/german_test) - (right click - open in new tab)   
 phone-number: #{nttdemodephonetest}#   
 [dev web demo](https://www.nttdemo.de/german_dev) - (right click - open in new tab)   
 phone-number: #{nttdemodephonedev}#   
@@ -21,7 +21,7 @@ phone-number: #{nttdemodephonedev}#
 
 ## virtual assistant (english)
 assistant is available as web and voice demo  
-[test web demo](https://www.nttdemo.de/english_test) (right click - open in new tab)  
+[staging web demo](https://www.nttdemo.de/english_test) (right click - open in new tab)  
 phone-number: #{nttdemoenphonetest}#   
 [dev web demo](https://www.nttdemo.de/english_dev) (right click - open in new tab)   
 phone-number: #{nttdemoenphonedev}#   
@@ -31,7 +31,7 @@ phone-number: #{nttdemoenphonedev}#
 
 ## clickbot (english)
 assistant only available as web   
-[test web demo](https://www.nttdemo.de/englishclick_test) (right click - open in new tab)   
+[staging web demo](https://www.nttdemo.de/englishclick_test) (right click - open in new tab)   
 [dev web demo](https://www.nttdemo.de/englishclick_dev) (right click - open in new tab)   
 
 ---
