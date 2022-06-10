@@ -16,12 +16,9 @@ tags:
     - User: petra.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#
     - User: nadine.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#
     - User: petra.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#
-  - Add the [Power Virtual Agents app](https://teams.microsoft.com/l/app/1850b8bb-76ac-411c-9637-08f7d1812d35?source=store-copy-link) in Microsoft Teams, you can search for it directly in Microsoft Teams app store.
-  - Open the Power Virtual Agents Teams application.
-  - Select *Chatbots*, select *Power Virtual Agent Demo*, select *Adoption Bot*
-  - click on *Open Chatbot*, press *Add*
-  - *pin* the bot to the main menu of teams (click on the three dots, select the bot right click and press *pin*)
-
+  - please *skip* setting up MFA after login!!!
+ 
+  
 ## Use Cases
   - Why use Teams?
   - How do I create a Team?
@@ -73,6 +70,16 @@ in tap *Adoption Bot Admin App* in Channel *General* in team *Power Virtual Agen
 
 show *requests* with status AND   
 show *feedback* with status
+
+
+
+
+## Admin Tasks
+  - Add the [Power Virtual Agents app](https://teams.microsoft.com/l/app/1850b8bb-76ac-411c-9637-08f7d1812d35?source=store-copy-link) in Microsoft Teams, you can search for it directly in Microsoft Teams app store.
+  - Open the Power Virtual Agents Teams application.
+  - Select *Chatbots*, select *Power Virtual Agent Demo*, select *Adoption Bot*
+  - click on *Open Chatbot*, press *Add*
+  - *pin* the bot to the main menu of teams (click on the three dots, select the bot right click and press *pin*)
 
     
 
