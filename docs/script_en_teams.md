@@ -17,6 +17,7 @@ tags:
     - User: nadine.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#
     - User: petra.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#
   - please *skip* setting up MFA after login!!!
+  - pin "Adoption Bot" to Menu, using the "..." Menu and a right click
  
   
 ## Use Cases
