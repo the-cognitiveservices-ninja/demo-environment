@@ -11,7 +11,11 @@ tags:
 # Demoscript English
 
 ## Prerequisites
-  - have access to Demo Tenant and MS Teams in Demo Tenant, ask holger.imbery@global.ntt for assistance
+  - please use one of the following user to access MS Teams: https://teams.microsoft.com   
+    - User: hans.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#
+    - User: petra.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#
+    - User: nadine.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#
+    - User: petra.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#
   - Add the [Power Virtual Agents app](https://teams.microsoft.com/l/app/1850b8bb-76ac-411c-9637-08f7d1812d35?source=store-copy-link) in Microsoft Teams, you can search for it directly in Microsoft Teams app store.
   - Open the Power Virtual Agents Teams application.
   - Select *Chatbots*, select *Power Virtual Agent Demo*, select *Adoption Bot*
