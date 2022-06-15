@@ -9,7 +9,12 @@ tags:
 # Demoscript English
 
 ## Prerequisites
-  - please use one of the following user to access the CloudPC instances:  
+  - install Microsofts Remote Desktop Experience and use the following logins to access the 3 independend machines,   
+    please do _not setup_ MFA, please skip setup if asked.
+    - use subscribe with URL: 
+    ```
+    https//rdweb.wvd.microsoft.com/api/arm/feeddiscovery
+    ```
     - Admin: hans.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
       Phone:  +49-30166365712
     - User: petra.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
