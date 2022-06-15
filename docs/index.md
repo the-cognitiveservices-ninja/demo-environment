@@ -3,13 +3,13 @@
 our demos are in german or english language, there are no limits to provide these solutions in any language.
 
 ## RESERVATION and fair use policy
-    - please book a slot [Holger Imbery](mailto:holger.imbery@global.ntt) to use the demo, parallel demos (adoption bot & tendfor will break your experience, 
+    - please book a slot [Holger Imbery](mailto:holger.imbery@global.ntt?subject=[nttdemo]%20Booking%20of%20Slot) to use the demo, parallel demos (adoption bot & tendfor will break your experience, 
       as you will be logged out when a secondperson starts a session with a Cloud PC)
       
 
 ## Support, Help, Wishes & Feedback
 
-    Please contact Holger Imbery (holger.imbery@global.ntt)   
+    Please contact [Holger Imbery](mailto:holger.imbery@global.ntt?subject=[nttdemo]%20Feedback)   
     via MS Teams for all demo environment related topics.   
     To contribute to the documentation, fork, edit and make a pull request.   
     Don´t forget to watch, star and share on github.
