@@ -23,7 +23,7 @@ tags:
       Phone: +49-30166365711
     - User: nadine.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
       Phone:  +49-30166365714
-    - all three are in queue sales
+
       
 ## Please do NOT
   - delete or modify the clients, even if you are able to do so !!! we trust you !
