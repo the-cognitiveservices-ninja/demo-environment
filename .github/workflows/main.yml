@@ -51,6 +51,10 @@ jobs:
             nttdemoclicktoken: ${{ secrets.NTTDEMOCLICKTOKEN }}
             nttdemoclicktokentest: ${{ secrets.NTTDEMOCLICKTOKENTEST }}
             nttdemoclicktokendev: ${{ secrets.NTTDEMOCLICKTOKENDEV }}
+            nttdemouserphone1: ${{ secrets.NTTDEMOUSERPHONE1 }}
+            nttdemouserphone2: ${{ secrets.NTTDEMOUSERPHONE2 }}
+            nttdemouserphone3:  ${{ secrets.NTTDEMOUSERPHONE3 }}
+            nttdemouserphonequeue: ${{ secrets.NTTDEMOUSERPHONEQUEUE }}
             
       - run: mkdocs build
       
