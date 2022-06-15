@@ -21,7 +21,12 @@ tags:
       Phone: #{nttdemouserphone1}#
     - User: nadine.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
       Phone: #{nttdemouserphone3}#
-    - all three are in queue sales
+ 
+   - WebUsers:   
+    - sign in a private browser [webteams](https://teams.office.com)   
+    - user bruno.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
+      Phone: no phone license but still an agent   
+   - all  are in queue sales
       
 ## Please do NOT
   - delete or modify the clients, even if you can do so !!! We trust you !!
@@ -43,6 +48,7 @@ open needed browser tabs to avoid login dialogues
   - call #{nttdemouserphonequeue}#
   - talk about the possibility of configuring queues and prompts
   - take the call and demonstrate call forward to 2nd level
+  - demonstrate with bruno.ente@ddcoms.onmicrosoft.com, user has no phone license but still is an agent
 
 ## Demo: Wallboard Experience
   [Wallboard for Sales Queue](https://tendforhosting.cloudspace.se/wb/1)   
