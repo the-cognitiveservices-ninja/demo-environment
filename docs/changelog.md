@@ -1,6 +1,11 @@
 ---
 title: changelog
 ---
+
+## 06/15/2022  - [Holger Imbery](https://github.com/the-cognitiveservices-ninja)
+ - integrated CloudPCs to demonstrate MS Teams Adoption bot
+ - integrated Demo for Tendfor Teams based Contact Centre
+
 ## 05/25/2022  - [Holger Imbery](https://github.com/the-cognitiveservices-ninja)
   * added new dev - test - prod structure (1rst release)
 
