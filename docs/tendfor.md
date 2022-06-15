@@ -9,9 +9,9 @@ tags:
 # Demoscript English
 
 ## Prerequisites
-  - install Microsofts Remote Desktop Experience and use the following logins to access the 3 independend machines,   
-    please do _not setup_ MFA, please skip setup if asked.
-    - use subscribe with URL: 
+  - install Microsofts Remote Desktop Experience and use the following credentials to access the three independent machines,   
+    please do _not setup_ MFA, and please skip setup if asked.
+    - use "subscribe with URL": 
     ```
     https//rdweb.wvd.microsoft.com/api/arm/feeddiscovery
     ```
@@ -24,11 +24,11 @@ tags:
     - all three are in queue sales
       
 ## Please do NOT
-  - delete or modify the clients, even if you are able to do so !!! we trust you !!
+  - delete or modify the clients, even if you can do so !!! We trust you !!
 
 ## Begin:
-log-in in all cloudpcs and make sure all agents are online
-open needed browser tabs to avoid log-in dialogues
+login in all cloud pcs and make sure all agents are online
+open needed browser tabs to avoid login dialogues
 
 ## Demo: Experience Overview
   - Use nadine.ente@ddcoms.onmicrosoft.com to show
@@ -41,8 +41,8 @@ open needed browser tabs to avoid log-in dialogues
 
 ## Demo: Call Queue (in several experiences)
   - call #{nttdemouserphonequeue}#
-  - talk about the possibility to configure queues and prompts
-  - take call and demonstrate call forward to 2nd level
+  - talk about the possibility of configuring queues and prompts
+  - take the call and demonstrate call forward to 2nd level
 
 ## Demo: Wallboard Experience
   [Wallboard for Sales Queue](https://tendforhosting.cloudspace.se/wb/1)   
@@ -64,9 +64,9 @@ open needed browser tabs to avoid log-in dialogues
 
 ### Admin Hints   
   - please *skip* setting up MFA after login!!!
-  - pin "Adoption Bot" to Menu, using the "..." Menu and a right click
-  - pin "Tendfor" to Menu, using the "..." Menu and a right click
+  - pin "Adoption Bot" to Menu, using the "..." Menu and a right-click
+  - pin "Tendfor" to Menu, using the "..." Menu and a right-click
 
 ## Environment 
   - please find the Tendfor Portal as a bookmark in edge
-  - please find the Tendfor Client installed (to demo poweruser environment)
+  - please find the Tendfor Client installed (to demo power user environment)
