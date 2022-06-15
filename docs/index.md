@@ -1,11 +1,11 @@
-# virtual Assistant Demos
+# NTT Germany Workplace Demos
 
 our demos are in german or english language, there are no limits to provide these solutions in any language.
 
 ## RESERVATION and fair use policy
    - please book a slot [Holger Imbery](mailto:holger.imbery@global.ntt?subject=[nttdemo]%20Booking%20of%20Slot)    
      to use the demo, parallel demos (adoption bot &    tendfor will break your experience,    
-     as you will be logged out when a secondperson starts a session with a Cloud PC)
+     as you will be logged out when a second person starts a session with a Cloud PC)
       
 
 ## Support, Help, Wishes & Feedback
