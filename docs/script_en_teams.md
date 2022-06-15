@@ -21,11 +21,11 @@ tags:
     https//rdweb.wvd.microsoft.com/api/arm/feeddiscovery
     ```
     - Admin: hans.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone:  +49-30166365712
+      Phone:  #{nttdemouserphone2}#
     - User: petra.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone: +49-30166365711
+      Phone: #{nttdemouserphone1}#
     - User: nadine.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone:  +49-30166365714
+      Phone: #{nttdemouserphone3}#
 
       
 ## Please do NOT
