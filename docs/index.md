@@ -10,11 +10,11 @@ our demos are in german or english language, there are no limits to provide thes
 
 ## Support, Help, Wishes & Feedback
 
-   Please contact [Holger Imbery via email](mailto:holger.imbery@global.ntt?subject=[nttdemo]%20Feedback) or
-   via MS Teams for all demo environment related topics.   
-   You can raise issues and feature requests via github issues.
-   To contribute to the documentation, fork, edit and make a pull request.   
-   Don´t forget to watch, star and share on github.
+   - Please contact [Holger Imbery via email](mailto:holger.imbery@global.ntt?subject=[nttdemo]%20Feedback) or
+     via MS Teams for all demo environment related topics.   
+     You can raise issues and feature requests via github issues.
+     To contribute to the documentation, fork, edit and make a pull request.   
+     Don´t forget to watch, star and share on github.
 
     
 ---
