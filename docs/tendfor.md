@@ -26,6 +26,42 @@ tags:
 ## Please do NOT
   - delete or modify the clients, even if you are able to do so !!! we trust you !!
 
+## Begin:
+log-in in all cloudpcs and make sure all agents are online
+open needed browser tabs to avoid log-in dialogues
+
+## Demo: Experience Overview
+  - Use nadine.ente@ddcoms.onmicrosoft.com to show
+    -  Agent Experience in MS Teams
+    -  Agent Experience in Tendfor Client
+    -  Agent Experience in WebClient (Browserbookmark)
+    -  Attentant Experience in Tendfor Client
+      -   demonstrate phonetic search
+    - mobile experience (stream your mobile)
+
+## Demo: Call Queue (in several experiences)
+  - call +13474647423
+  - talk about the possibility to configure queues and prompts
+  - take call and demonstrate call forward to 2nd level
+
+## Demo: Wallboard Experience
+  [Wallboard for Sales Queue](https://tendforhosting.cloudspace.se/wb/1)   
+  adust Browserzoom to show all panels
+  
+## Demo: Admin Experience
+  - use hans.ente@ddcoms.onmicrosoft.com
+  - show [statistics](https://tendforhosting.cloudspace.se/statistics/queue)   
+    and describe how the statistic can be modified
+  - show [Admin Interface](https://tendforhosting.cloudspace.se/admin)
+    - go to "interaction queue" and describe "sales_queue"
+    - go to SLA Profiles
+    - go to Absence Codes
+    - go to Event Handles
+    - go to Wallboard
+    - go to Auto Attendant 
+    - go to Vistitor Flow
+
+
 ### Admin Hints   
   - please *skip* setting up MFA after login!!!
   - pin "Adoption Bot" to Menu, using the "..." Menu and a right click
