@@ -37,8 +37,9 @@ open needed browser tabs to avoid login dialogues
 
 ## Demo: Experience Overview
   - Use hans.ente@ddcoms.onmicrosoft.com to show
-    -  Agent Experience in Tendfor Client
+    -  Agent Experience in Tendfor Client   
       -  show: dial out as
+      -  show_ shortcuts
       -  show: devices
       -  show: roles
     -  Agent Experience in MS Teams
