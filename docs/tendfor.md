@@ -42,6 +42,7 @@ open needed browser tabs to avoid login dialogues
       -  show_ shortcuts
       -  show: devices
       -  show: roles
+      -  show: search
     -  Agent Experience in MS Teams
     -  Agent Experience in WebClient (Browserbookmark)
     -  Attentant Experience in Tendfor Client
