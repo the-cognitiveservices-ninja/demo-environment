@@ -36,9 +36,12 @@ login in all cloud pcs and make sure all agents are online
 open needed browser tabs to avoid login dialogues
 
 ## Demo: Experience Overview
-  - Use nadine.ente@ddcoms.onmicrosoft.com to show
-    -  Agent Experience in MS Teams
+  - Use hans.ente@ddcoms.onmicrosoft.com to show
     -  Agent Experience in Tendfor Client
+      -  show: dial out as
+      -  show: devices
+      -  show: roles
+    -  Agent Experience in MS Teams
     -  Agent Experience in WebClient (Browserbookmark)
     -  Attentant Experience in Tendfor Client
       -   demonstrate phonetic search
@@ -47,6 +50,7 @@ open needed browser tabs to avoid login dialogues
 ## Demo: Call Queue (in several experiences)
   - call #{nttdemouserphonequeue}#
   - talk about the possibility of configuring queues and prompts
+    -   the demo is set to parallel ringing
   - take the call and demonstrate call forward to 2nd level
   - demonstrate with bruno.ente@ddcoms.onmicrosoft.com, user has no phone license but still is an agent
 
