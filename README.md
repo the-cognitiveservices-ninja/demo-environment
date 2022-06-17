@@ -1,7 +1,7 @@
 [![generate website & deploy](https://github.com/the-cognitiveservices-ninja/demo-environment/actions/workflows/main.yml/badge.svg)](https://github.com/the-cognitiveservices-ninja/demo-environment/actions/workflows/main.yml)
 
 # demo-environment for Microsoft Power Virtual Agents as bots & voice bots
-the environment is published to a protected static webapp on azure via github actions. This is only the documentation and the envelope,
+the environment is published to a protected static webapp on azure via github actions. This is only the documentation and the envelope.
 
 ## Interested in a voicebot demo based on Microsofts PVA
 get in touch via email 
