@@ -1,4 +1,4 @@
-name: Azure CI/CD
+name: generate website & deploy
 
 on:
   push:
