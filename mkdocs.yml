@@ -13,6 +13,7 @@ copyright: Copyright &copy; 2022 Holger Imbery
 
 nav:
     - home: index.md
+    - overview (table): what.md 
     - demo script virtual Assistant (german): script_de.md
     - demo script virtual Assistant (english): script_en.md
     - demo script clickbot (english): script_en_click.md
