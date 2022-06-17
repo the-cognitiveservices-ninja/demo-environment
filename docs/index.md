@@ -40,6 +40,18 @@ assistant only available as web
 [webdemo](https://www.nttdemo.de/englishclick) (right click - open in new tab)   
 [demo script](/script_en_click/)
 
+---
+
+## outbound voicebot (german/english)
+outbound bot only voice   
+[demo script](/outbound/)
+
+---
+
+## contact centre demo (german/english)
+teams native contact centre   
+[demo script](/tendfor/)
+
 ---   
 
 ## adoption bot (MS Teams - english)
