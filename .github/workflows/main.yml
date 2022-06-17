@@ -4,10 +4,19 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'docs/*'
+      - 'docs/articles/*'
+      - 'mkdocs.yml'  
+    
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+    paths:
+      - 'docs/*'
+      - 'docs/articles/*'
+      - 'mkdocs.yml'
 
 jobs:
   build_and_deploy_job:
