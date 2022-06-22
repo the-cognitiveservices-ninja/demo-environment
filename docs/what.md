@@ -11,4 +11,4 @@
 | clickbot (en)                 | clickbot with question answering no NLU                                                |  [script](https://www.nttdemo.de/script_en_click/)| [website](https://www.nttdemo.de/englishclick)|
 | outbound voicebot en/ger      | outbound voicebot - appointment reminder                                               |  [script](https://www.nttdemo.de/outbound/)|
 | MS Teams chatbot (adoption)   | teams adoption: question answering, community driven FaQ, IT Tickets                   |  [script](https://www.nttdemo.de/script_en_teams/)|
-| Contact Center native MS Teams| teams native contact centre functionality aaS                                          |  [script](https://www.nttdemo.de/script_de/)|
+| Contact Center native MS Teams| teams native contact centre functionality aaS                                          |  [script](https://www.nttdemo.de/tendfor/)|
