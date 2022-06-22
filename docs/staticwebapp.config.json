@@ -1,20 +1,26 @@
-
 {
-    "routes": [
-           {
-            "route": "/login",
-            "allowedRoles": ["anonymous"],
-            "rewrite": "/.auth/login/add"
-          },
-          {
-            "route": "/.auth/login/aad",
-            "allowedRoles": ["authenticated"],
-          },
-          {       
-            "route": "/logout",
-            "allowedRoles": ["authenticated"],
-            "rewrite": "/.auth/logout"
+  “routes”: [
+       {
+      “route”: “/”,
+             “allowedRoles”: [ “authenticated” ]
+    }
+  ],
+  “responseOverrides”: {
+          “401”: {
+            “redirect”: “/.auth/login/aad”,
+            “statusCode”: 302
           }
-    ]
+        },
+  “auth”: {
+    “identityProviders”: {
+      “azureActiveDirectory”: {
+        “registration”: {
+          “openIdIssuer”: “https://login.microsoftonline.com/81814973-9a47-4fb4-8feb-139dcaef5bc8“</font>,
+          “clientIdSettingName”: “AADClientID”,
+          “clientSecretSettingName”: “AADSecret”
+        },”userDetailsClaim”: “http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name”
+              }
+    }
+  }
 }
-        
+ 
