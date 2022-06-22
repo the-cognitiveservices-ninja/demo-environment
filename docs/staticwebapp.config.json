@@ -17,7 +17,7 @@
         "registration": {
           "openIdIssuer": "https://login.microsoftonline.com/81814973-9a47-4fb4-8feb-139dcaef5bc8",
           "clientIdSettingName": "AADClientID",
-          "clientSecretSettingName”: “AADSecret"
+          "clientSecretSettingName": "AADSecret"
         },"userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"
               }
     }
