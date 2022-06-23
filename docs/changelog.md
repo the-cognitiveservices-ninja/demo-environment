@@ -1,6 +1,8 @@
 ---
 title: changelog
 ---
+## 06/23/2022  - [Kay Schneutzer](https://github.com/schneutzi-81)
+ - modified table (overview demos)
 
 ## 06/15/2022  - [Holger Imbery](https://github.com/the-cognitiveservices-ninja)
  - integrated CloudPCs to demonstrate MS Teams Adoption bot
