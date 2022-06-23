@@ -1,5 +1,12 @@
 {
   "routes": [
+    
+        {
+      "route": "/register",
+      "allowedRoles": [
+        "anonymous"
+      ]
+    },
     {
       "route": "/",
       "allowedRoles": [
