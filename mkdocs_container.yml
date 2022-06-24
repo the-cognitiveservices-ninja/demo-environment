@@ -51,10 +51,6 @@ markdown_extensions:
 plugins:
   - tags:
       tags_file: tags.md
-  - with-pdf:
-      cover_title: NTT Germany - Demo Environment
-      cover_subtitle: Holger Imbery
-      output_path: pdf/script.pdf
   - search:
        lang: en
   - git-revision-date
