@@ -17,7 +17,7 @@ version: v0.6
 ## UseCase: Meeting confirmation
 
 Bot: Good afternoon, I am calling for NTT. I would like to remind you of your appointment.   
-     Do I talk to Mr. Holger Imbery ?
+     Do I talk to Mr. Holger Imbery?  
 You: Yes   
 
 Bot: Can you make the appointment with us tomorrow, 8:30 a.m.?   
