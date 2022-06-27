@@ -15,8 +15,9 @@ tags:
 
 # Sales Pitch Video: 
 
-AI Transformation	
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2gbsbjK2-Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+AI Transformation  
+![type:video](https://www.youtube.com/embed/2gbsbjK2-Kk)
+
 
 ## Playbook
 [Customer Engagement Playbook](/playbook/CustomerEngagementPlaybook.pdf)   

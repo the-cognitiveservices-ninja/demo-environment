@@ -54,5 +54,5 @@ plugins:
   - search:
        lang: en
   - git-revision-date
-
+  - mkdocs-video
   
