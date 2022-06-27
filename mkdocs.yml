@@ -14,12 +14,12 @@ copyright: Copyright &copy; 2022 Holger Imbery
 nav:
     - home: index.md
     - demo overview : what.md 
-    - demo script virtual Assistant (german): script_de.md
-    - demo script virtual Assistant (english): script_en.md
-    - demo script clickbot (english): script_en_click.md
-    - demo script outbound voicebot (en&de): outbound.md
-    - demo script Teams Bot (english): script_en_teams.md
-    - demo script tendfor (english): tendfor.md
+    - demo script virtual Assistant (ger): script_de.md
+    - demo script virtual Assistant (en): script_en.md
+    - demo script clickbot (en): script_en_click.md
+    - demo script outbound voicebot (ger/en): outbound.md
+    - demo script Teams Bot (en): script_en_teams.md
+    - demo script tendfor (en): tendfor.md
     - presales resourses: playbook.md
     - changelog: changelog.md
     - tags: tags.md
