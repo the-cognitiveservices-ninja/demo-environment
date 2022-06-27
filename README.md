@@ -9,7 +9,7 @@ the environment is published to a protected static webapp on azure via github ac
 
 
 ## Interested in a voicebot demo based on Microsofts PVA
-get in touch via email 
+get in touch via email  
 [Holger Imbery](mailto:holger.imbery@global.ntt?subject=[GitHub]%20PVA%20DEMO%20Request)   
 [Kay Schneutzer](mailto:kay.schneutzer@global.ntt?subject=[GitHub]%20PVA%20DEMO%20Request)
 
