@@ -1,6 +1,10 @@
 ---
 title: changelog
----
+---  
+
+## 06/27/2022  - [Kay Schneutzer](https://github.com/schneutzi-81)
+ - add section for video´s in presales including first video for better understanding
+
 ## 06/23/2022  - [Kay Schneutzer](https://github.com/schneutzi-81)
  - modified table (overview demos)
 
