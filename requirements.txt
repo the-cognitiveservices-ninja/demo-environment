@@ -2,3 +2,4 @@ mkdocs-material
 mkdocs-git-revision-date-plugin
 weasyprint
 mkdocs-with-pdf
+mkdocs-video
