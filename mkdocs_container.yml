@@ -13,18 +13,17 @@ copyright: Copyright &copy; 2022 Holger Imbery
 
 nav:
     - home: index.md
-    - demo overview : what.md 
-    - demo script virtual Assistant (ger): script_de.md
-    - demo script virtual Assistant (en): script_en.md
-    - demo script clickbot (en): script_en_click.md
-    - demo script outbound voicebot (ger/en): outbound.md
-    - demo script Teams Bot (en): script_en_teams.md
-    - demo script tendfor (en): tendfor.md
+    - Demos: 
+      - scripts/index.md
+      - virtual Assistant (ger): scripts/script_de.md
+      - virtual Assistant (en): scripts/script_en.md
+      - clickbot (en): scripts/script_en_click.md
+      - outbound voicebot (ger/en): scripts/outbound.md
+      - Teams Bot (en): scripts/script_en_teams.md
+      - tendfor (en): scripts/tendfor.md
     - presales resourses: playbook.md
     - changelog: changelog.md
     - tags: tags.md
-    - download script: pdf/script.pdf
-    - dev-environment: dev.md
     
 theme:
   name: 'material'
@@ -42,6 +41,8 @@ theme:
 
 markdown_extensions:
   - meta
+  - admonition
+  - tables
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -56,3 +57,7 @@ plugins:
   - git-revision-date
   - mkdocs-video
   
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+

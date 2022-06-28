@@ -1,5 +1,5 @@
 ---
-title: Demoscript English/German
+title: outbound dialer bot
 tags:
   - virtual assistant
   - english
