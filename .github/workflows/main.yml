@@ -51,7 +51,22 @@ jobs:
             nttdemouserphone2: ${{ secrets.NTTDEMOUSERPHONE2 }}
             nttdemouserphone3:  ${{ secrets.NTTDEMOUSERPHONE3 }}
             nttdemouserphonequeue: ${{ secrets.NTTDEMOUSERPHONEQUEUE }}
-
+      - uses: cschleiden/replace-tokens@v1
+        with: 
+           files: '["docs/scripts/*.md"]'
+        env:
+            nttdemodephone: ${{ secrets.NTTDEMODEPHONE }}
+            nttdemoenphone: ${{ secrets.NTTDEMOENPHONE }}
+            nttdemodephonetest: ${{ secrets.NTTDEMODEPHONETEST }}
+            nttdemoenphonetest: ${{ secrets.NTTDEMOENPHONETEST }}
+            nttdemodephonedev: ${{ secrets.NTTDEMODEPHONEDEV }}
+            nttdemoenphonedev: ${{ secrets.NTTDEMOENPHONEDEV }}
+            nttdemoteams: ${{ secrets.NTTDEMOTEAMS }}
+            nttdemouserpw: ${{ secrets.DEMOUSERPW }}
+            nttdemouserphone1: ${{ secrets.NTTDEMOUSERPHONE1 }}
+            nttdemouserphone2: ${{ secrets.NTTDEMOUSERPHONE2 }}
+            nttdemouserphone3:  ${{ secrets.NTTDEMOUSERPHONE3 }}
+            nttdemouserphonequeue: ${{ secrets.NTTDEMOUSERPHONEQUEUE }}
       - uses: cschleiden/replace-tokens@v1
         with: 
            files: '["**/*.html"]'
