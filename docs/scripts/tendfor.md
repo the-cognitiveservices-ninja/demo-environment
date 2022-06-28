@@ -6,7 +6,7 @@ tags:
   - MS Teams
 ---
 
-# Demoscript English
+# Tendfor Contact Centre
 
 ## Prerequisites
   - install Microsofts (Remote Desktop Experience)[https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop#install-the-client] and use the following credentials to access the three independent machines,   
