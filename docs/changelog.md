@@ -1,5 +1,7 @@
 ---
 title: changelog
+tags: 
+ - changelog
 ---  
 ## 06/28/2022  - [Holger Imbery](https://github.com/the-cognitiveservices-ninja)
  - menu structure cleanup
