@@ -14,7 +14,7 @@ tags:
   - please coordinate your demo with [Holger Imbery](holger.imbery@global.ntt), it is only possible to have one demo at the same time.   
     (and additional login in a cloudpc will break your or and others customer demo!!!!)
     
-  - install Microsofts (Remote Desktop Experience)[https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop#install-the-client] and use the following logins to access the 3 independend machines,   
+  - install Microsofts [Remote Desktop Experience](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop#install-the-client) and use the following logins to access the 3 independend machines,   
     please do _not setup_ MFA, please skip setup if asked.
     - use subscribe with URL: 
     ```
