@@ -8,6 +8,7 @@ on:
       - 'docs/*'
       - 'docs/articles/*'
       - 'mkdocs.yml'  
+      - 'docs/scripts/*'
     
   pull_request:
     types: [opened, synchronize, reopened, closed]
