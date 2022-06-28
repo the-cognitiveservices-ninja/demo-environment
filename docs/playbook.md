@@ -1,10 +1,6 @@
 ---
-title: Presales Resources
+title: presales resources
 tags:
-  - virtual assistant
-  - clickbot
-  - chat bot
-  - voicebot
   - checklist
   - presales
   - playbook
@@ -13,11 +9,10 @@ tags:
 
 # Presales Resources
 
-# Sales Pitch Video: 
+## Sales Pitch Video 
 
 AI Transformation  
 ![type:video](https://www.youtube.com/embed/2gbsbjK2-Kk)
-
 
 ## Playbook
 [Customer Engagement Playbook](/playbook/CustomerEngagementPlaybook.pdf)   

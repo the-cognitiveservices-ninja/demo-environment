@@ -1,5 +1,5 @@
 ---
-title: Demoscript German
+title: german virtual assistant (voice/chat)
 tags:
   - virtual assistant
   - german

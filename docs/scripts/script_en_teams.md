@@ -1,5 +1,5 @@
 ---
-title: Demoscript Teams Adoption Bot English
+title: english MS Teams bot
 tags:
   - virtual assistant
   - english

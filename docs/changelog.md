@@ -1,11 +1,15 @@
 ---
 title: changelog
 ---  
+## 06/28/2022  - [Holger Imbery](https://github.com/the-cognitiveservices-ninja)
+ - menu structure cleanup
+ - sortable tables
+ - reworked tags
+
 ## 06/27/2022  - [Holger Imbery](https://github.com/the-cognitiveservices-ninja)
  - finalized gitpod.io integration for WYSIWYG editing
  - added mkdocs-video for addining videos in a single line of markdown
  - added logout link
-
 
 ## 06/27/2022  - [Kay Schneutzer](https://github.com/schneutzi-81)
  - add section for video´s in presales including first video for better understanding
