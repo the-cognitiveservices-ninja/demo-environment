@@ -15,7 +15,7 @@ AI Transformation
 ![type:video](https://www.youtube.com/embed/2gbsbjK2-Kk)
 
 Systems Integration (Tendfor)
-![type:video](https://youtu.be/8fs_i5GgroY)
+![type:video](https://www.youtube.com/embed/8fs_i5GgroY)
 
 ## Playbook
 [Customer Engagement Playbook](/playbook/CustomerEngagementPlaybook.pdf)   
