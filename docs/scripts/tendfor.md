@@ -9,7 +9,7 @@ tags:
 # Tendfor Contact Centre
 
 ## Prerequisites
-  - install Microsofts [Remote Desktop Experience](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop#install-the-client){target=_blank} and use the following credentials to access the three independent machines,   
+  - install Microsofts [Remote Desktop Experience](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop#install-the-client) and use the following credentials to access the three independent machines,   
     please do _not setup_ MFA, and please skip setup if asked.
     - use "subscribe with URL": 
     ```
