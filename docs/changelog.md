@@ -4,6 +4,10 @@ tags:
  - changelog
 ---  
 ## 06/28/2022  - [Holger Imbery](https://github.com/the-cognitiveservices-ninja)
+ - links to chatbots redirect to new browser tab
+ - links to Microsoft Docs redirect to new browser tab
+
+## 06/28/2022  - [Holger Imbery](https://github.com/the-cognitiveservices-ninja)
  - menu structure cleanup
  - sortable tables
  - reworked tags
