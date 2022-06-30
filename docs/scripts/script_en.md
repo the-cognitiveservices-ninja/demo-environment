@@ -10,6 +10,10 @@ tags:
 # Demoscript English
 version: v0.6
 
+!!! note "Note:"
+
+    * please find links and phonenumbers on the [available demos table](https://www.nttdemo.de/scripts)
+    
 ## background image
 customer specific background: call/email holger.imbery@global.ntt
 

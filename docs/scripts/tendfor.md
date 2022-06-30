@@ -8,6 +8,10 @@ tags:
 
 # Tendfor Contact Centre
 
+!!! note "Note:"
+
+    * please find links and phonenumbers on the [available demos table](https://www.nttdemo.de/scripts)
+
 ## Prerequisites
   - install Microsofts [Remote Desktop Experience](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop#install-the-client) and use the following credentials to access the three independent machines,   
     please do _not setup_ MFA, and please skip setup if asked.

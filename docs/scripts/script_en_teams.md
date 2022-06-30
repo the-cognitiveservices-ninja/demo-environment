@@ -10,6 +10,10 @@ tags:
 
 # Demoscript English
 
+!!! note "Note:"
+
+    * please find links and phonenumbers on the [available demos table](https://www.nttdemo.de/scripts)
+
 ## Prerequisites
   - please coordinate your demo with [Holger Imbery](holger.imbery@global.ntt), it is only possible to have one demo at the same time.   
     (and additional login in a cloudpc will break your or and others customer demo!!!!)

@@ -12,6 +12,11 @@ tags:
 # Demoscript English
 version: v0.6
 
+!!! note "Note:"
+
+    * please find links and phonenumbers on the [available demos table](https://www.nttdemo.de/scripts)
+
+
 ## please ask for the powershell Script to trigger the call
 
 ## UseCase: Meeting confirmation
