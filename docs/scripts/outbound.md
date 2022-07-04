@@ -18,6 +18,7 @@ version: v0.6
 
 
 ## please ask for the powershell Script to trigger the call
+You will need a powershell script to trigger the outbound call and a installed powershell core environment on your desktop [Install powershellcore](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
 ## UseCase: Meeting confirmation
 
