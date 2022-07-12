@@ -103,7 +103,10 @@ To show the message, you need to be in the ddcoms.onmicrosoft.com - Tenant
 ### Usecase: FAQ - public sector
 ```available: chat ```
 
-You: Was kostet ein Wunschkennzeichen?    
+You:  
+```
+Was kostet ein Wunschkennzeichen?    
+```
 
 Bot: *bot gives a detailed answer*
 
