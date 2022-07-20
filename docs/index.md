@@ -3,9 +3,8 @@
 our demos are in german or english language, there are no limits to provide these solutions in any language.
 
 ## RESERVATION and fair use policy
-   - please book a slot with [Holger Imbery](mailto:holger.imbery@global.ntt?subject=[nttdemo]%20Booking%20of%20Slot)    
-     to use the demo, as parallel demos (*adoption bot & tendfor*) will break your experience,    
-     as you will be logged out when a second person starts a session with a Cloud PC.
+   - please book a slot with Kay and Holger via [bookings](https://www.nttdemo.de/bookings)   
+     to use the demo or to get a customer demo with Kay and Holger.
       
 
 ## Support, Help, Wishes & Feedback
