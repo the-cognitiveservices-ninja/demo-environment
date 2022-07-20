@@ -3,7 +3,7 @@
 our demos are in german or english language, there are no limits to provide these solutions in any language.
 
 ## RESERVATION and fair use policy
-   - please book a slot with Kay and Holger via [bookings](https://www.nttdemo.de/bookings)   
+   - please book a slot with Kay and Holger via [booking](https://www.nttdemo.de/booking)   
      to use the demo or to get a customer demo with Kay and Holger.
       
 
