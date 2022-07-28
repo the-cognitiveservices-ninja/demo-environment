@@ -140,7 +140,6 @@ Bot: *bot gives a detailed answer*
 You: *ask different - get the same or translated answer back*
 ```
 Kann ich am Telefon bestellen
-
 ```
 ```
 Can I order on the phone
