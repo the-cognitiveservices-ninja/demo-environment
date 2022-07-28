@@ -8,7 +8,7 @@ tags:
 ---
 
 # Demoscript German
-version: v0.6
+version: v0.7
 
 !!! note "Note:"
 
@@ -125,6 +125,34 @@ Hoeveel kost een gewenst kenteken?
 ```
 ```
 Combien coûte une plaque d’immatriculation souhaitée?
+```
+
+### Usecase: FAQ
+```available: chat ```
+
+You:  
+```
+Kann ich telefonisch bestellen ?   
+```
+
+Bot: *bot gives a detailed answer*
+
+You: *ask different - get the same or translated answer back*
+```
+Kann ich am Telefon bestellen
+
+```
+```
+Can I order on the phone
+```
+```
+Puis-je commander par téléphone
+```
+```
+ਕੀ ਮੈਂ ਫ਼ੋਨ 'ਤੇ ਆਰਡਰ ਦੇ ਸਕਦਾ ਹਾਂ?
+```
+```
+هل يمكنني الطلب على الهاتف
 ```
 
 #### translation 
