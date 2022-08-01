@@ -14,12 +14,6 @@
       ]
     },
     {
-      "route": "/docs/scripts",
-      "allowedRoles": [
-        "authenticated"
-      ]
-    },
-    {
       "route": "/booking",
       "allowedRoles": [
         "authenticated"
