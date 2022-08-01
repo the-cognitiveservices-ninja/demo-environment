@@ -14,6 +14,12 @@
       ]
     },
     {
+      "route": "/scripts/*",
+      "allowedRoles": [
+        "authenticated"
+      ]
+    },
+    {
       "route": "/booking",
       "allowedRoles": [
         "authenticated"
