@@ -8,29 +8,9 @@ tags:
 
 # Tendfor Contact Centre
 
-!!! note "Note:"
-
-    * please find links and phonenumbers on the [available demos table](https://www.nttdemo.de/scripts)
 
 ## Prerequisites
-  - install Microsofts [Remote Desktop Experience](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop#install-the-client) and use the following credentials to access the three independent machines,   
-    please do _not setup_ MFA, and please skip setup if asked.
-    - use "subscribe with URL": 
-    ```
-    https//rdweb.wvd.microsoft.com/api/arm/feeddiscovery
-    ```
-    - Admin: hans.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone:  #{nttdemouserphone2}#
-    - User: petra.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone: #{nttdemouserphone1}#
-    - User: nadine.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone: #{nttdemouserphone3}#
- 
-   - WebUsers:   
-    - sign in a private browser [webteams](https://teams.office.com)   
-    - user bruno.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone: no phone license but still an agent   
-   - all  are in queue sales
+    - please coordinate your demo with [Holger Imbery](holger.imbery@global.ntt) the demo is only available with Kay or Holger as a presenter.
       
 ## Please do NOT
   - delete or modify the clients, even if you can do so !!! We trust you !!
