@@ -15,29 +15,8 @@ tags:
     * please find links and phonenumbers on the [available demos table](https://www.nttdemo.de/scripts)
 
 ## Prerequisites
-  - please coordinate your demo with [Holger Imbery](holger.imbery@global.ntt), it is only possible to have one demo at the same time.   
-    (and additional login in a cloudpc will break your or and others customer demo!!!!)
-    
-  - install Microsofts [Remote Desktop Experience](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop#install-the-client) and use the following logins to access the 3 independend machines,   
-    please do _not setup_ MFA, please skip setup if asked.
-    - use subscribe with URL: 
-    ```
-    https//rdweb.wvd.microsoft.com/api/arm/feeddiscovery
-    ```
-    - Admin: hans.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone:  #{nttdemouserphone2}#
-    - User: petra.ente@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone: #{nttdemouserphone1}#
-    - User: nadine.maus@ddcoms.onmicrosoft.com Password: #{nttdemouserpw}#   
-      Phone: #{nttdemouserphone3}#
-
-      
-## Please do NOT
-  - delete or modify the clients, even if you are able to do so !!! we trust you !
-  - please *skip* setting up MFA after login!!!
-  - pin "Adoption Bot" to Menu, using the "..." Menu and a right click
- 
-  
+  - please coordinate your demo with [Holger Imbery](holger.imbery@global.ntt) the demo is only available with Kay or Holger as a presenter.
+     
 ## Use Cases
   - Why use Teams?
   - How do I create a Team?
