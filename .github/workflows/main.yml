@@ -1,0 +1,117 @@
+name: generate website & deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/*'
+      - 'docs/articles/*'
+      - 'mkdocs.yml'  
+      - 'docs/scripts/*'
+      - 'docs/vision/*'
+    
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - main
+    paths:
+      - 'docs/*'
+      - 'docs/articles/*'
+      - 'mkdocs.yml'
+      - 'docs/scripts/*'
+
+jobs:
+  build_and_deploy_job:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    runs-on: ubuntu-latest
+    name: Build and Deploy Job
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-video
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-git-revision-date-plugin
+      - run: pip install mkdocs-with-pdf
+      ## - run: mkdocs gh-deploy --force
+      - uses: cschleiden/replace-tokens@v1
+        with: 
+           files: '["docs/*.md"]'
+        env:
+            nttdemodephone: ${{ secrets.NTTDEMODEPHONE }}
+            nttdemoenphone: ${{ secrets.NTTDEMOENPHONE }}
+            nttdemodephonetest: ${{ secrets.NTTDEMODEPHONETEST }}
+            nttdemoenphonetest: ${{ secrets.NTTDEMOENPHONETEST }}
+            nttdemodephonedev: ${{ secrets.NTTDEMODEPHONEDEV }}
+            nttdemoenphonedev: ${{ secrets.NTTDEMOENPHONEDEV }}
+            nttdemoteams: ${{ secrets.NTTDEMOTEAMS }}
+            nttdemouserpw: ${{ secrets.DEMOUSERPW }}
+            nttdemouserphone1: ${{ secrets.NTTDEMOUSERPHONE1 }}
+            nttdemouserphone2: ${{ secrets.NTTDEMOUSERPHONE2 }}
+            nttdemouserphone3:  ${{ secrets.NTTDEMOUSERPHONE3 }}
+            nttdemouserphonequeue: ${{ secrets.NTTDEMOUSERPHONEQUEUE }}
+            nttdemoenphonepva: ${{ secrets.NTTDEMOENPHONEPVA }}
+            
+      - uses: cschleiden/replace-tokens@v1
+        with: 
+           files: '["docs/scripts/*.md"]'
+        env:
+            nttdemodephone: ${{ secrets.NTTDEMODEPHONE }}
+            nttdemoenphone: ${{ secrets.NTTDEMOENPHONE }}
+            nttdemodephonetest: ${{ secrets.NTTDEMODEPHONETEST }}
+            nttdemoenphonetest: ${{ secrets.NTTDEMOENPHONETEST }}
+            nttdemodephonedev: ${{ secrets.NTTDEMODEPHONEDEV }}
+            nttdemoenphonedev: ${{ secrets.NTTDEMOENPHONEDEV }}
+            nttdemoteams: ${{ secrets.NTTDEMOTEAMS }}
+            nttdemouserpw: ${{ secrets.DEMOUSERPW }}
+            nttdemouserphone1: ${{ secrets.NTTDEMOUSERPHONE1 }}
+            nttdemouserphone2: ${{ secrets.NTTDEMOUSERPHONE2 }}
+            nttdemouserphone3:  ${{ secrets.NTTDEMOUSERPHONE3 }}
+            nttdemouserphonequeue: ${{ secrets.NTTDEMOUSERPHONEQUEUE }}
+      - uses: cschleiden/replace-tokens@v1
+        with: 
+           files: '["**/*.html"]'
+        env:
+            nttdemodetoken: ${{ secrets.NTTDEMODETOKEN }}
+            nttdemoentoken: ${{ secrets.NTTDEMOENTOKEN }}
+            nttdemodetokentest: ${{ secrets.NTTDEMODETOKENTEST }}
+            nttdemoentokentest: ${{ secrets.NTTDEMOENTOKENTEST }}
+            nttdemodetokendev: ${{ secrets.NTTDEMODETOKENDEV }}
+            nttdemoentokendev: ${{ secrets.NTTDEMOENTOKENDEV }}
+            nttdemoclicktoken: ${{ secrets.NTTDEMOCLICKTOKEN }}
+            nttdemoclicktokentest: ${{ secrets.NTTDEMOCLICKTOKENTEST }}
+            nttdemoclicktokendev: ${{ secrets.NTTDEMOCLICKTOKENDEV }}
+            nttdemoentokenpva: ${{ secrets.NTTDEMOENTOKENPVA }}
+            
+      - run: mkdocs build
+      
+      - name: Deploy Azure
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          action: "upload"
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+          app_location: "site" # App source code path
+          api_location: "" # Api source code path - optional
+          output_location: "" # Built app content directory - optional
+          ###### End of Repository/Build Configurations ######
+
+  close_pull_request_job:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Close Pull Request Job
+    steps:
+      - name: Close Pull Request
+        id: closepullrequest
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: "close"

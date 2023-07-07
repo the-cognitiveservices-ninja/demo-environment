@@ -1,0 +1,63 @@
+site_name: NTT Germany AG & Co KG
+site_url:  https://www.nttdemo.de
+site_description: 'virtual demo room'
+site_author: 'Holger Imbery'
+docs_dir: docs/
+
+repo_name: 'https://github.com/the-cognitiveservices-ninja/demo-environment'
+repo_url: 'https://github.com/the-cognitiveservices-ninja/demo-environment'
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2022 Holger Imbery
+
+nav:
+    - home: index.md
+    - Demos: 
+      - scripts/index.md
+      - virtual Assistant (ger): scripts/script_de.md
+      - virtual Assistant (en): scripts/script_en.md
+      - clickbot (en): scripts/script_en_click.md
+      - outbound voicebot (ger/en): scripts/outbound.md
+      - Teams Bot (en): scripts/script_en_teams.md
+      - tendfor (en): scripts/tendfor.md
+    - presales resourses: playbook.md
+    - changelog: changelog.md
+    - tags: tags.md
+    
+theme:
+  name: 'material'
+  custom_dir: docs/overrides
+  logo: assets/ntt_logo.png
+  palette:
+    primary: blue
+  
+  features:
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    
+
+markdown_extensions:
+  - meta
+  - admonition
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+plugins:
+  - tags:
+      tags_file: tags.md
+  - search:
+       lang: en
+  - git-revision-date
+  - mkdocs-video
+  
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <a href="/pdf/script.pdf" title="Link to pdf" class="md-content__button md-icon">
+        {% include ".icons/material/file-pdf-box.svg" %}
+    </a>
+
+
+{{ super() }}
+{% endblock content %}
