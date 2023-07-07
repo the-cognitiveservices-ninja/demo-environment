@@ -12,5 +12,8 @@ The environment is uploaded to a secure static web application on Azure using Gi
 get in touch via email  
 [Holger Imbery](mailto:holger.imbery@global.ntt?subject=[GitHub]%20PVA%20DEMO%20Request)   
 
+## codespace
+this repository is codespace-enabled to enable wyswig editing via vscode web in a codespace.
+
 
 

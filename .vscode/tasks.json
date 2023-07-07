@@ -6,7 +6,7 @@
         {
             "label": "Run mkdocs serve",
             "type": "shell",
-            "command": "mkdocs serve -f mkdocs_container.yml",
+            "command": "mkdocs serve -f mkdocs-dev.yml",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
