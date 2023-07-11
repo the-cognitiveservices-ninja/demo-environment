@@ -10,7 +10,7 @@ tags:
 ## Demo Script
 
 Text Chat:  
-https://www.nttdemo.de/D365  
+[webchat](https://www.nttdemo.de/d365)
 
 ## Dialog
 
