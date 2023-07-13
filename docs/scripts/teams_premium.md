@@ -15,8 +15,16 @@ Our real work takes place after the meeting. We refer back to our notes for this
 
 ## Prerequisites
 
-## Pre-Meeting prep
-
 ## Meeting script
+### Pre-Meeting prep
+prepare a slide deck with the following topics
+- show the recap tab of a teams meeting in the standard experience
+- - watch the recording
+- - transscript
+- - shared files
+- how to record and transcribe a meeting and change the spoken language for the transscription
+-  turn on life captions
+-  - life captions language can be changed by the participants
+   - what happens if the presenter switches to a different language
 *Presenter:*
 Today we would like to discuss
