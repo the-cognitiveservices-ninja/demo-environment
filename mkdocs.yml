@@ -18,6 +18,7 @@ nav:
       - Dynamics 365 Customer Service (webchat): scripts/d365_text_chat.md
       - Dynamics 365 Customer Service (phone): scripts/d365_voice.md
       - tendfor: scripts/tendfor.md
+      - Teams Premium: scripts/teams_premium.md
     - changelog: changelog.md
     
 theme:
