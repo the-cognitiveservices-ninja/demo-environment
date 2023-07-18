@@ -21,14 +21,13 @@ Our real work takes place after the meeting. We refer back to our notes for this
 ## Scope and Disclaimer
 ### The purpose of this demo is to showcase the capabilities of intelligent recap
 As recap is only available after the meeting, we present slides during the meeting, have a Q&A session and use a loop component for real time colaboration.
+### Copilot in Teams capabilities
+As of today copilot is an early access feature, available through invite only. Therefore it is not part of the demo.
+Microsoft is working on a demo experience in EDX. But they are also challange with the fact that they need data in the organisation to demostrate the capabilities of copilot.
 
 ## What is already possible in a classic teams meeting
 - recording and transcription
 - life captions
-
-## What is copilot in Teams
-Today it is an early access feature, available to invite only. Therefore it is not part of the demo.
-Microsoft is working on a demo experience in EDX. But they are also challange with the fact that they need data in the organisation to demostrate the capabilities of copilot.
 
 ## Pre Meeting Prep
 - Record the features life captions and transscript in a standrard meeting (can be done in a video recording or wiht screenshots
