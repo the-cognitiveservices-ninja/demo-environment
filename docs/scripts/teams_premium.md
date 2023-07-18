@@ -11,6 +11,7 @@ Our real work takes place after the meeting. We refer back to our notes for this
 ### *What if an AI relieves us of the work of note taking and creates a uniform meeting protocol for all meeting participants?*
 
 ## Demo Agenda
+### Scope and Disclaimer
 - What is possible in Teans Standard
 - What is the difference to Copilot in Teams
 - Teams Premium features
