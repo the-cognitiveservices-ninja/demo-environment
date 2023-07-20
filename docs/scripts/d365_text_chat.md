@@ -103,8 +103,8 @@ you can go two times through the dialog, make sure you enter a city with a tempe
 
 ## use case live chat - human to human interaction with livetranslation
 
-* Agent: Hallo, wie kann ich Dir helfen  
-* User: I want to install a water filter?  
+* Agent: Hallo, Du möchtest einen Wasserfilter installieren.  
+* User: ja, mein Wasser ist sehr hart.  
 
 * Agent in Copilot: How do i install a water filter  
 
