@@ -12,11 +12,13 @@ Our real work takes place after the meeting. We refer back to our notes for this
 
 ## Demo Agenda
 - What is possible in Teans Standard
+- Prequesits for Teams Premium
 - What is the difference to Copilot in Teams
 - Teams Premium features
 -   Live translation for captions
 -   Intelligent recap
 - Administrative Features
+-   How to create custom meeting templates
 
 ## Scope and Disclaimer
 ### The purpose of this demo is to showcase the capabilities of intelligent recap
@@ -30,6 +32,9 @@ Microsoft is working on a demo experience in EDX. But they are also challange wi
 - life captions
 
 ## Pre Meeting Prep
+- Sent an invitation to the attendees
+- Add a loop component for collaboration in the chat
+- 
 - Record the features life captions and transscript in a standrard meeting (can be done in a video recording or wiht screenshots
 - Schedule a Teams Premium Meeting in the Demo Tenant
 - Prepare a loop component in the meeting chat
@@ -38,6 +43,10 @@ Microsoft is working on a demo experience in EDX. But they are also challange wi
 - create a second meeting template for high confidential meetings and prevent recording, use watermarks and sensitivy labels
 
 ## Meeting script
+### Sent an invitation to the attendees
+Hello
+In this meeting I would like to demonstrate you the intelligent recap feature of Teams premium and show you the capabilities and administrative options of Teams Premium.
+
 - Open slide deck and and use the present in teams option
 
 - how to record and transcribe a meeting and change the spoken language for the transscription
