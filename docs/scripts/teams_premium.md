@@ -47,7 +47,26 @@ Microsoft is working on a demo experience in EDX. But they are also challange wi
 Hello
 In this meeting I would like to demonstrate you the intelligent recap feature of Teams premium and show you the capabilities and administrative options of Teams Premium.
 
-- Open slide deck and and use the present in teams option
+### Admin Options - Meeting Templates
+Stop presenting the slides, login to the [Teams Admin Center](https://admin.teams.microsoft.com/) 
+In the left pane expand all options, click on meetings and meeting templates. Klick on the "+ Add" button in the main frame.
+Enter "Sensitive" as name for the template
+
+* Presenter:*
+I go to the teams admin center select meetings and then meeting template in the left pane​.
+I add a new Meeting template and give it a name​.
+As I want to create a template for sensitive meeting I call this "Sensitive".
+Short description is required for this template, so we enter:
+Bypass Lobby and watermark settings for a high confidential meeting
+In the area below there are all the meeting settings, that an meeting organisator have.
+
+For the Sensetive meeting we choose the following options:
+- Security
+  - Only organisers and co-organizers can bypass the lobby
+  - End to End encryption toggle on
+  - Enable watermark for screen share on
+  - Enable watermark for video on
+We save the settings and wait till the template is created.
 
 - how to record and transcribe a meeting and change the spoken language for the transscription
 -  turn on life captions
