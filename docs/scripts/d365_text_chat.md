@@ -104,7 +104,7 @@ you can go two times through the dialog, make sure you enter a city with a tempe
 ## use case live chat - human to human interaction with livetranslation
 
 * Agent: Hallo, Du möchtest einen Wasserfilter installieren.  
-* User: ja, mein Wasser ist sehr hart.  
+* User: i have a lot of lime in my water  
 
 * Agent in Copilot: How do i install a water filter  
 
