@@ -102,20 +102,21 @@ you can go two times through the dialog, make sure you enter a city with a tempe
   the bot connects you to a human for a live chat
 
 ## use case live chat - human to human interaction with livetranslation
-Agent: Hallo, wie kann ich Dir helfen  
-User: I want to install a water filter?  
 
-Agent in Copilot: How do i install a water filter  
+* Agent: Hallo, wie kann ich Dir helfen  
+* User: I want to install a water filter?  
 
-Agent: Ich kann Dir eine Anleitung senden, ist das ok?  
-User: Ok  
+* Agent in Copilot: How do i install a water filter  
 
-Agent "Press sent to Customer"  
+* Agent: Ich kann Dir eine Anleitung senden, ist das ok?  
+* User: Ok  
 
-User: Thank you, I will try.  
-User closes  
+* Agent "Press sent to Customer"  
 
-Agent sees summary and creates case.  
+* User: Thank you, I will try.  
+  User closes  
+
+* Agent sees summary and creates case.  
 
 
 
