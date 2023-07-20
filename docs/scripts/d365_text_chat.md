@@ -102,3 +102,29 @@ you can go two times through the dialog, make sure you enter a city with a tempe
   the bot connects you to a human for a live chat
 
 ## use case live chat - human to human interaction with livetranslation
+!!! note "Case-Chaining"
+
+    The case is chained to the previous case "human escalation". All the customer/bot entries are prerequisite for this use case too.
+
+
+
+* You:  
+  Guten Tag {$customer fullname$}, willkommen zu unser online Chat-Service.
+Mein Name ist Mike und werde Sie unterstützen Ihr Anliegen zu lösen.
+Unser intelligenter Freund - Virtual Bot - hat bisher folgende Informationen eingesammelt:<br>
+Name: {$customer fullname$}<br>
+Einwilligung zur Verarbeitung: True<br>
+
+  Ist dies aus Ihrer Sicht korrekt?
+
+* Customer:  
+  Yes
+
+* You:  
+  Auf Basis der bisherigen Informationen fasse ich den Fall wie folgt zusammen:
+Sie möchten mit uns über ein Problem mit Ihrer Smart Brew 1000 sprechen. Insbesondere benötigen Sie Hilfe beim Austausch eines Filters. Richtig?  
+
+* Bot:  
+  Yes, exactly
+
+
