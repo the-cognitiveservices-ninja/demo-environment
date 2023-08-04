@@ -5,12 +5,12 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'docs/*'
-      - 'docs/articles/*'
-      - 'mkdocs.yml'  
-      - 'docs/scripts/*'
-      - 'docs/vision/*'
+#    paths:
+#      - 'docs/*'
+#      - 'docs/articles/*'
+#      - 'mkdocs.yml'  
+#      - 'docs/scripts/*'
+#      - 'docs/vision/*'
     
   pull_request:
     types: [opened, synchronize, reopened, closed]
